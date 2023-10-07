@@ -12,7 +12,7 @@ function addTask() {
     const li = document.createElement("li");
     li.innerHTML = `
         ${taskText}
-        <button class="delete-button" onclick="deleteTask(this)">Delete</button>
+        <button class="delete-button" onclick="deleteTask(this)">Borrar</button>
     `;
     taskList.appendChild(li);
     
